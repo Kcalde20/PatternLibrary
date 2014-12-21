@@ -12,7 +12,7 @@
 	padding: 0 $gutter;
 }
 
-/* The Row. */
+/* The Row */
 .row {
 	margin-left: -$gutter;
 	margin-right: -$gutter;
@@ -24,14 +24,14 @@
 	clear: both;
 }
 
-/* Column Widths. */
+/* Column Widths */
 @for $i from 1 through $column-count {
 	.col-#{$i} {
 		width: ( 100 / $column-count ) * $i * 1%;
 	}
 }
 
-/* Special Classes. */
+/* Special Classes */
 .col-third {
 	width: ( 100 / 3 ) * 1%;
 }

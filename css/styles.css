@@ -1,6 +1,6 @@
 /* 1.0 - Basic Patterns. */
 /* Normalize */
-/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
  * 2. Prevent iOS text size adjust after orientation change, without disabling
@@ -14,18 +14,11 @@ html {
   -webkit-text-size-adjust: 100%;
   /* 2 */ }
 
-/**
- * Remove default margin.
- */
-body {
-  margin: 0; }
-
 /* HTML5 display definitions
    ========================================================================== */
 /**
  * Correct `block` display not defined for any HTML5 element in IE 8/9.
- * Correct `block` display not defined for `details` or `summary` in IE 10/11
- * and Firefox.
+ * Correct `block` display not defined for `details` or `summary` in IE 10/11 and Firefox.
  * Correct `block` display not defined for `main` in IE 11.
  */
 article,
@@ -37,7 +30,6 @@ footer,
 header,
 hgroup,
 main,
-menu,
 nav,
 section,
 summary {
@@ -78,7 +70,7 @@ template {
  * Remove the gray background color from active links in IE 10.
  */
 a {
-  background-color: transparent; }
+  background: transparent; }
 
 /**
  * Improve readability when focused and also mouse hovered in all browsers.
@@ -126,7 +118,7 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-small {
+small, blockquote footer {
   font-size: 80%; }
 
 /**
@@ -357,7 +349,7 @@ table {
 td,
 th {
   padding: 0; }
-  
+
 *,
 *:after,
 *:before {
@@ -378,7 +370,7 @@ th {
   float: left;
   padding: 0 1em; }
 
-/* The Row. */
+/* The Row */
 .row {
   margin-left: -1em;
   margin-right: -1em; }
@@ -388,7 +380,7 @@ th {
   display: table;
   clear: both; }
 
-/* Column Widths. */
+/* Column Widths */
 .col-1 {
   width: 8.33333%; }
 
@@ -425,7 +417,7 @@ th {
 .col-12 {
   width: 100%; }
 
-/* Special Classes. */
+/* Special Classes */
 .col-third {
   width: 33.33333%; }
 
@@ -453,5 +445,80 @@ img {
 @media (max-width: 768px) {
   [class^="col-"] {
     width: 100%; } }
+/* Typography */
+html {
+  font-size: 1em; }
+
+html,
+input,
+button,
+textarea {
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizedLegibility; }
+
+body {
+  color: #333;
+  font-family: Helvetica, "Helvetica Neue", Arial, sans-serif;
+  line-height: 1.5em; }
+
+p {
+  margin-bottom: 1.5em; }
+
+a,
+a:visited {
+  color: #0f82bd; }
+  a:hover,
+  a:visited:hover {
+    color: #333; }
+
+hr {
+  border: 0;
+  background-color: #ccc;
+  height: 1px;
+  margin: 1.5em 0; }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 1.5em 0 0.5em;
+  line-height: 1.2; }
+
+h5,
+h6 {
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: uppercase; }
+
+h1 {
+  font-size: 3.998em; }
+
+h2 {
+  font-size: 2.827em; }
+
+h3 {
+  font-size: 1.999em; }
+
+h4 {
+  font-size: 1.414em; }
+
+h5 {
+  font-size: 1em; }
+
+h6 {
+  font-size: 0.707em; }
+
+ul,
+ol {
+  margin: 0 0 1.5em 1.5em; }
+
+blockquote {
+  color: gray;
+  font-style: italic;
+  margin-left: 1.5em; }
+  blockquote footer {
+    font-style: normal; }
 
 /*# sourceMappingURL=styles.css.map */

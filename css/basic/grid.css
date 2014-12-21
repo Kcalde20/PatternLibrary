@@ -8,7 +8,7 @@
   float: left;
   padding: 0 1em; }
 
-/* The Row. */
+/* The Row */
 .row {
   margin-left: -1em;
   margin-right: -1em; }
@@ -18,7 +18,7 @@
   display: table;
   clear: both; }
 
-/* Column Widths. */
+/* Column Widths */
 .col-1 {
   width: 8.33333%; }
 
@@ -55,7 +55,7 @@
 .col-12 {
   width: 100%; }
 
-/* Special Classes. */
+/* Special Classes */
 .col-third {
   width: 33.33333%; }
 
