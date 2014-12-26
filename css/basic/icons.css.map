@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,gBAAiB;EAChB,MAAM,EAAE,cAA4B;EAEpC,MAAM,EAAE,GAAG;EACX,OAAO,EAAE,KAAK;EACd,aAAa,ECIH,KAAK;EDHf,KAAK,EAAE,GAAG;EAEV,UAAU,EAAE,MAAM;EAElB,kBAAE;IACD,WAAW,EAAE,KAAK;;AAIpB,YAAa;EACZ,aAAa,EAAE,IAAI;;AAGpB,aAAc;EACb,aAAa,ECkBG,GAAG;;ADfpB,WAAY;EACX,SAAS,EAAE,IAAI;;AAGhB,UAAW;EACV,SAAS,EAAE,IAAI",
+"sources": ["../../sass/basic/icons.scss","../../sass/settings/settings.scss"],
+"names": [],
+"file": "icons.css"
+}

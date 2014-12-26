@@ -1,0 +1,23 @@
+[class^="icon-"] {
+  border: 1px solid #ccc;
+  height: 3em;
+  padding: .25em;
+  margin-bottom: 1.5em;
+  width: 3em;
+  text-align: center; }
+  [class^="icon-"] i {
+    line-height: 2.5em; }
+
+.icon-circle {
+  border-radius: 100%; }
+
+.icon-rounded {
+  border-radius: 3px; }
+
+.icon-large {
+  font-size: 150%; }
+
+.icon-huge {
+  font-size: 250%; }
+
+/*# sourceMappingURL=icons.css.map */

@@ -118,7 +118,7 @@ mark {
 /**
  * Address inconsistent and variable font size in all browsers.
  */
-small, blockquote footer {
+small, blockquote footer, form .field-group .help {
   font-size: 80%; }
 
 /**
@@ -583,5 +583,104 @@ a.btn-large {
 
 .btn-large {
   font-size: 2em; }
+
+/* Forms */
+form .field-group {
+  margin-bottom: 1em; }
+  form .field-group label {
+    display: block;
+    margin-bottom: .5em;
+    font-weight: bold; }
+  form .field-group input:not([class^="btn"]),
+  form .field-group textarea {
+    border: 1px solid #ccc;
+    padding: .75em; }
+    form .field-group input:not([class^="btn"]):focus, form .field-group input:not([class^="btn"]):hover,
+    form .field-group textarea:focus,
+    form .field-group textarea:hover {
+      border-color: #a6a6a6;
+      outline: none; }
+    form .field-group input:not([class^="btn"]).field-fw,
+    form .field-group textarea.field-fw {
+      width: 100%; }
+  form .field-group .help {
+    margin: .5em 0 0;
+    color: gray;
+    font-style: italic; }
+  form .field-group.field-error label,
+  form .field-group.field-error .help,
+  form .field-group.field-error input {
+    color: red;
+    border-color: #ffcccc; }
+form .required {
+  color: red; }
+
+fieldset {
+  border-color: #ccc;
+  padding: 1.5em;
+  margin-bottom: 1.5em; }
+  fieldset legend {
+    font-weight: bold;
+    padding: 0 .5em; }
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: none; }
+
+input[type="checkbox"] + label:before {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  content: "";
+  display: inline-block;
+  height: 1.25em;
+  margin: -2px 6px 0 0;
+  vertical-align: middle;
+  width: 1.25em;
+  font-size: .75em;
+  line-height: 1.25em;
+  text-align: center; }
+
+input[type="checkbox"]:checked + label:before {
+  content: "\2713"; }
+
+input[type="radio"] + label:before {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 1.25em;
+  content: "";
+  display: inline-block;
+  height: .6em;
+  margin: -2px 6px 0 0;
+  width: .6em;
+  vertical-align: middle;
+  font-size: 1.65em;
+  line-height: .6em;
+  text-align: center; }
+
+input[type="radio"]:checked + label:before {
+  content: "\2022"; }
+
+/* Icons */
+[class^="icon-"] {
+  border: 1px solid #ccc;
+  height: 3em;
+  padding: .25em;
+  margin-bottom: 1.5em;
+  width: 3em;
+  text-align: center; }
+  [class^="icon-"] i {
+    line-height: 2.5em; }
+
+.icon-circle {
+  border-radius: 100%; }
+
+.icon-rounded {
+  border-radius: 3px; }
+
+.icon-large {
+  font-size: 150%; }
+
+.icon-huge {
+  font-size: 250%; }
 
 /*# sourceMappingURL=styles.css.map */

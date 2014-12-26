@@ -1,11 +1,11 @@
 /*
-Sass::SyntaxError: "blockquote footer" failed to @extend "small".
+Sass::SyntaxError: "form .field-group .help" failed to @extend "small".
 The selector "small" was not found.
 Use "@extend small !optional" if the extend should be able to fail.
 
 
 Backtrace:
-sass/basic/typography.scss:95
+sass/basic/forms.scss:32
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/tree/visitors/extend.rb:61:in `block in check_extends_fired!'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/util/subset_map.rb:106:in `block in each_value'
 /Library/Ruby/Gems/2.0.0/gems/sass-3.4.9/lib/sass/util/subset_map.rb:106:in `each'
@@ -33,4 +33,4 @@ sass/basic/typography.scss:95
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Sass::SyntaxError: \"blockquote footer\" failed to @extend \"small\".\A The selector \"small\" was not found.\A Use \"@extend small !optional\" if the extend should be able to fail.\A "; }
+  content: "Sass::SyntaxError: \"form .field-group .help\" failed to @extend \"small\".\A The selector \"small\" was not found.\A Use \"@extend small !optional\" if the extend should be able to fail.\A "; }

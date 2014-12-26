@@ -9,6 +9,7 @@
 
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/styles.css" />
+	<link rel="stylesheet" href="css/basic/font-awesome.min.css"/>
 
 	<style>
 		.demo-col {
@@ -251,6 +252,212 @@
 					<p><a href="" class="btn">Anchor tag</a></p>
 					<p><input type="submit" class="btn" value="Submit input"></p>
 					<p><input type="button" class="btn" value="Button input"></p>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<h1>Forms</h1>
+
+			<hr>
+
+			<form action="">
+				<div class="row">
+					<div class="col-half">
+						<fieldset>
+							<legend>Inputs</legend>
+							<div class="field-group">
+								<label for="demo-input-1">This is a label</label>
+								<input type="text" id="demo-input-1" placeholder="this is a text input">
+
+								<p class="help">This is a contextual help for the field above.</p>
+							</div>
+
+							<div class="field-group field-error">
+								<label for="demo-input-2">Error Field</label>
+								<input type="text" id="demo-input-2" placeholder="This is a text input">
+
+								<p class="help">This is an error message for the field above.</p>
+							</div>
+
+							<div class="field-group">
+								<label for="demo-textarea">This is a label</label>
+								<textarea name="demo-textarea" id="demo-textarea" cols="30" rows="10" placeholder="This is a text area"></textarea>
+							</div>
+						</fieldset>
+					</div>
+
+					<div class="col-half">
+						<fieldset>
+							<legend>Radio buttons and checkboxes</legend>
+
+							<div class="field-group">
+								<input type="radio" name="demo-radio" id="demo-radio-1">
+								<label for="demo-radio-1">Radio 1</label>
+
+								<input type="radio" name="demo-radio" id="demo-radio-2">
+								<label for="demo-radio-2">Radio 2</label>
+
+								<input type="radio" name="demo-radio" id="demo-radio-3">
+								<label for="demo-radio-3">Radio 3</label>
+							</div>
+
+							<div class="field-group">
+								<input type="checkbox" id="demo-checkbox" name="demo-checkbox">
+								<label for="demo-checkbox">This is a checkbox</label>
+							</div>
+						</fieldset>
+					</div>
+				</div>
+			</form>
+
+			<div class="row">
+				<div class="col-4">
+					<form action="">
+						<fieldset>
+							<legend>Sign-in Form</legend>
+
+							<div class="field-group">
+								<label for="sign-in-username">Username: <span class="required">*</span></label>
+								<input type="password" id="sign-in-pwd" name="sign-in-pwd">
+							</div>
+
+							<div class="field-group">
+								<label for="sign-in-username">Password: <span class="required">*</span></label>
+								<input type="password" id="sign-in-pwd" name="sign-in-pwd">
+							</div>
+
+							<div class="field-group">
+								<input type="checkbox" id="sign-in-checkbox" name="sign-in-checkbox" />
+								<label for="sign-in-checkbox">Remember me</label>
+							</div>
+
+							<div class="field-group">
+								<input type="submit" class="btn" value="Sign In">
+							</div>
+							<p><em><span class="required">*</span> required fields</em></p>
+						</fieldset>
+					</form>
+				</div>
+
+				<div class="col-4">
+					<form action="">
+						<fieldset>
+							<legend>Sign-Up Form</legend>
+
+							<div class="field-group">
+								<label for="sign-up-email">Email Address: <span class="required">*</span></label>
+								<input type="email" id="sign-up-email" name="sign-up-email">
+							</div>
+
+							<div class="field-group">
+								<label for="sign-up-username">Username: <span class="required">*</span></label>
+								<input type="username" id="sign-up-username" name="sign-up-username">
+							</div>
+
+							<div class="field-group">
+								<label for="sign-up-password">Password: <span class="required">*</span></label>
+								<input type="password" id="sign-up-password" name="sign-up-password">
+							</div>
+
+							<div class="field-group">
+								<label for="sign-up-confirm-pwd">Confirm Password: <span class="required">*</span></label>
+								<input type="password" id="sign-up-confirm-pwd" name="sign-up-confirm-pwd">
+							</div>
+
+							<div class="field-group">
+								<input type="submit" class="btn" value="Sign Up">
+							</div>
+
+							<p><em><span class="required">*</span> required fields</em></p>
+						</fieldset>
+					</form>
+				</div>
+
+
+				<div class="col-4">
+					<form action="">
+						<fieldset>
+							<legend>Contact Form</legend>
+
+							<div class="field-group">
+								<label for="contact-name">Name: <span class="required">*</span></label>
+								<input type="text" id="contact-name" name="contact-name">
+							</div>
+
+							<div class="field-group">
+								<label for="contact-email">Email address: <span class="required">*</span></label>
+								<input type="email" id="contact-email" name="contact-email">
+							</div>
+
+							<div class="field-group">
+								<label for="contact-website">Website:</label>
+								<input type="text" id="contact-website" name="contact-website">
+							</div>
+
+							<div class="field-group">
+								<label for="contact-textarea">Message: <span class="required">*</span></label>
+								<textarea name="contact-textarea" id="contact-textarea" cols="30" rows="10" class="field-fw"></textarea>
+							</div>
+
+							<div class="field-group">
+								<input type="submit" class="btn" value="Send Message">
+							</div>
+
+							<p><em><span class="required">*</span> required fields</em></p>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section>
+		<div class="container">
+			<h1>Icons</h1>
+
+			<hr>
+
+			<div class="row">
+				<div class="col-half">
+
+					<h4>Bordered icons</h4>
+					<div class="icon-circle">
+						<i class="fa fa-coffee"></i>
+					</div>
+					<p>Circle</p>
+
+					<div class="icon-rounded">
+						<i class="fa fa-coffee"></i>
+					</div>
+					<p>Rounded<p>
+
+					<div class="icon-square">
+						<i class="fa fa-coffee"></i>
+					</div>
+					<p>Square</p>
+				</div>
+
+				<div class="col-half">
+
+					<h4>Icon sizes</h4>
+					<div class="icon-circle">
+						<i class="fa fa-coffee"></i>
+					</div>
+					<p>Default</p>
+
+					<div class="icon-circle icon-large">
+						<i class="fa fa-coffee"></i>
+					</div>
+					<p>Large<p>
+
+					<div class="icon-circle icon-huge">
+						<i class="fa fa-coffee"></i>
+					</div>
+					<p>Huge</p>
 				</div>
 
 			</div>
